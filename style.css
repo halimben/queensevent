@@ -38,11 +38,13 @@ body
 	color: #fff;
 	font-weight: bold;
 	margin: 10px;
+	font-size: 40pt;
 }
 
 .user-box p
 {
 	color: #fff;
+	font-size: 20pt;
 }
 
 .scroll-btn 
@@ -134,6 +136,11 @@ body
 .nav-link
 {
 	color: #fff !important;
+}
+
+.nav-link button
+{
+	zoom: 1.5;
 }
 
 .skills-bar p
@@ -393,3 +400,34 @@ body
 	padding: 10px;
 	
 }
+
+@media (min-width: 768px) {
+	.carousel-multi-item-2 .col-md-3 {
+	float: left;
+	width: 25%;
+	max-width: 100%; } }
+	
+	.carousel-multi-item-2 .card img {
+	border-radius: 2px; }
+
+/* footer styles */
+
+.list-unstyled a {
+	color: #976F40;
+  }
+  
+  .list-unstyled a:hover {
+	color: #976F40;
+	text-decoration: none;
+	filter: brightness(1.5);
+  }
+  
+  .ftitle {
+	margin:30px 0 30px 0;
+	color: #976F40;
+	font-weight: bold;
+  }
+  
+  .list-unstyled {
+	margin: 0 0 100px 0;
+  }
